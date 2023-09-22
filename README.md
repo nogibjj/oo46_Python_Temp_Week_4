@@ -6,6 +6,8 @@
 
 1. All dependencies needed for execution can be found in the [requirement.txt](https://github.com/nogibjj/oo46_Python_Temp_Week_4/blob/main/requirements.txt) file.
 
+   - To run the application, simply run: make run / python main.py in your prefered terminal
+
 2. The main purpose of ths application is to create a GitHub Actions Matrix Build that tests more than one version of Python.
 
 ## Mini-project deliverables:

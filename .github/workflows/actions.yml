@@ -44,3 +44,7 @@ jobs:
       - name: Testing Code
         run: |
            make test
+
+      - name: Run App
+        run: |
+           make run
