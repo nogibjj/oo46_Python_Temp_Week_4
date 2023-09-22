@@ -3,18 +3,18 @@ install:
 		pip install -r requirements.txt
 
 format:	
-	black myapp/*.py 
+	black *.py 
 
 lint:
-	pylint --disable=R,C myapp/*.py
+	ruff check *.py
 
 #  container-lint:
 #  	docker run --rm -i hadolint/hadolint < Dockerfile
 
 test:
-	python myapp/test_main.py
+	python -m pytest test_main.py
 
-deploy:
-	python myapp/main.py
+run:
+	python main.py
 		
-all: install format lint test deploy
+all: install lint test format run
