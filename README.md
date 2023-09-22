@@ -10,6 +10,6 @@
 
 ## Mini-project deliverables:
 
-[GitHub Actions Matrix](https://github.com/nogibjj/oo46_Python_Temp_Week_4/blob/main/workflow.png)
+[GitHub Actions Matrix](workflow.png)
 
-[def]: https://github.com/nogibjj/oo46_Python_Temp_Week_4/actions/workflows/actions.yml
+[def]:( https://github.com/nogibjj/oo46_Python_Temp_Week_4/actions/workflows/actions.yml)
